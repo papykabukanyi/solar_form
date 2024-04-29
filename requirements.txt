@@ -12,5 +12,5 @@ Werkzeug==2.2.3
 gunicorn==21.2.0
 packaging==23.2
 
-gspread==
-oauth2client==
+gspread==6.1.0
+oauth2client==4.1.3
