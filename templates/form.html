@@ -1,179 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Meyawo landing page.">
-    <meta name="author" content="Devcrud">
-    <title>cheap solar Form</title>
+    <meta name="description"
+        content="Discover the power of solar energy with cheap solar. We provide top-quality solar solutions tailored to your home's needs. Go green and save with our expert installations and reliable service.">
+    <meta name="author" content="KBKNY">
+    <title>Empower Your Home with Cheap Solar Energy</title>
     <!-- font icons -->
     <link rel="stylesheet" href="/static/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
-	<link rel="stylesheet" href="/static/css/meyawo.css">
     <!-- form css -->
-    <link rel="stylesheet" href="/static/css/form.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/meyawo.css">
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/imgs/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/imgs/favicon-16x16.png">
+    <link rel="manifest" href="/static/imgs/site.webmanifest">
 </head>
-<body>
 
+<body>
     <!-- Page Navbar -->
-    <nav class="custom-navbar">
+    <!-- <nav class="custom-navbar">
         <div class="container">
             <a class="logo" href="index.html">Cheap Solar</a>
-        </div>          
-    </nav><!-- End of Page Navbar -->
+        </div>
+    </nav> -->
+    <!-- End of Page Navbar -->
 
     <!-- page header -->
-    <header id="home" class="header">
-        <div class="header-content container">
-            <div class="formbold-main-wrapper">
-    <!-- Author: FormBold Team -->
-    <!-- Learn More: https://formbold.com -->
-    <div class="formbold-form-wrapper">
-        <form action="/submit" method="POST">
-            <div class="formbold-steps">
-                <ul>
-                    <li class="formbold-step-menu1 active">
-                        <span>1</span>
-                        Basic info
-                    </li>
-                    <li class="formbold-step-menu2">
-                        <span>2</span>
-                        Message
-                    </li>
-                    <li class="formbold-step-menu3">
-                        <span>3</span>
-                        Confirm
-                    </li>
+    <header>
+        <!-- start div-->
+        <div class="container">
+            <div class="wrapper">
+                <ul class="steps">
+                    <li class="is-active">Step 1</li>
+                    <li>Step 2</li>
+                    <li>Step 3</li>
                 </ul>
-            </div>
-    
-            <div class="formbold-form-step-1 active">
-                <div class="formbold-input-flex">
-                <div>
-                    <label for="firstname" class="formbold-form-label"> First name </label>
-                    <input
-                    type="text"
-                    name="firstname"
-                    placeholder="Taylor"
-                    id="firstname"
-                    class="formbold-form-input"
-                    />
-                </div>
-                <div>
-                    <label for="lastname" class="formbold-form-label"> Last name </label>
-                    <input
-                    type="text"
-                    name="lastname"
-                    placeholder="Swift"
-                    id="lastname"
-                    class="formbold-form-input"
-                    />
-                </div>
-            </div>
-    
-            <div class="formbold-input-flex">
-                <div>
-                    <label for="phone" class="formbold-form-label"> Phone number </label>
-                    <input 
-                    type="phone" 
-                    name="phone"
-                    placeholder="+1 000 000 0000"
-                    id="phone" 
-                    class="formbold-form-input"
-                    />
-                </div>
-                <div>
-                    <label for="email" class="formbold-form-label"> Email Address </label>
-                    <input
-                    type="email"
-                    name="email"
-                    placeholder="example@mail.com"
-                    id="email"
-                    class="formbold-form-input"
-                    />
-                </div>
-            </div>
-    
-            <div>
-                <label for="address" class="formbold-form-label"> Address </label>
-                <input
-                type="text"
-                name="address"
-                id="address"
-                placeholder="Flat 4, 24 Castle Street, Perth, PH1 3JY"
-                class="formbold-form-input"
-                />
-            </div>
-            </div>
-            <div class="formbold-form-step-2">
-                <div>
-                    <label for="message" class="formbold-form-label"> Message </label>
-                    <textarea
-                    rows="6"
-                    name="message"
-                    id="message"
-                    placeholder="Tell us how much would you like us to save you!"
-                    class="formbold-form-input"></textarea>
-                </div>
-            </div>
+                <form class="form-wrapper">
+                    <fieldset class="section is-active">
+                        <h3>Your Details</h3>
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <input type="text" name="email" id="email" placeholder="Your Email">
+                        <input type="text" name="phone" id="phone" placeholder="Your Phone Number">
+                        <input type="text" name="street" id="street" placeholder="Your Street">
+                        <input type="text" name="city" id="city" placeholder="Your City">
+                        <input type="text" name="state"  id="state" placeholder="Your State">
+                        <input type="text" name="zip" id="zip" placeholder="Your Zip Code">
+                        <div class="button btn btn-primary">Next</div>
+                    </fieldset>
+                    <fieldset class="section">
+                        <h3>Select the service you need</h3>
+                        <div class="row cf">
+                            <div class="four col">
+                                <input type="radio" name="r1" id="r1" checked>
+                                <label for="r1">
+                                    <h4>Healthcare</h4>
+                                </label>
+                            </div>
+                            <div class="four col">
+                                <input type="radio" name="r1" id="r2"><label for="r2">
+                                    <h4>Solar</h4>
+                                </label>
+                            </div>
+                            <div class="four col">
+                                <input type="radio" name="r1" id="r3"><label for="r3">
+                                    <h4>Roofing</h4>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="button btn btn-primary">Next</div>
+                    </fieldset>
+                    <fieldset class="section">
+                        <h3>Do you have a message?</h3>
 
-            <div class="formbold-form-step-3">
-                <div class="formbold-form-confirm">
-                    <p>
-                        We will contact you soon!
-                    </p>
-                </div>
+                        <input type="text" name="message" id="message" placeholder="Write a message">
+                        <input class="submit button btn btn-primary" type="submit" value="Send">
+                    </fieldset>
+                    <fieldset class="section">
+                        <h3>Your information has been sent!</h3>
+                        <p>Please allow Us 1 to 2 hour to reach back out with a proffesional to help you!</p>
+                        <br>
+                        <a href="index.html">
+                            <div class="button btn btn-primary">Main Page</div>
+                            <!-- <button class="btn btn-primary">Main Page</button> -->
+                        </a>
+                    </fieldset>
+                </form>
             </div>
-        
-                <div class="formbold-form-btn-wrapper">
-                    <button class="formbold-back-btn">
-                    Back
-                    </button>
-
-                <button class="formbold-btn">
-                    Next Step
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_1675_1807)">
-                    <path d="M10.7814 7.33312L7.20541 3.75712L8.14808 2.81445L13.3334 7.99979L8.14808 13.1851L7.20541 12.2425L10.7814 8.66645H2.66675V7.33312H10.7814Z" fill="white"/>
-                    </g>
-                    <defs>
-                    <clipPath id="clip0_1675_1807">
-                    <rect width="16" height="16" fill="white"/>
-                    </clipPath>
-                    </defs>
-                    </svg>
-                </button>
-            </div>
-        </form>
         </div>
-    </div>
-        </div>           
-    </header><!-- end of page header -->
+    </header>
+    <!-- end of page header -->
     <!-- footer -->
-    <div class="container">
-        <footer class="footer">       
-            <p class="mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a>CheapSolar</a></p>
-            <!-- <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
-            </div> -->
-        </footer>
-    </div> <!-- end of page footer -->
-	<!-- Form scrips -->
+    <!-- end of page footer -->
+    <!-- Form scrips -->
+    <!-- <script src="/static/js/form.js"></script> -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
     <script src="/static/js/form.js"></script>
-	<!-- core  -->
+    <!-- core  -->
     <script src="/static/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="/static/vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- bootstrap 3 affix -->
-	<script src="/static/vendors/bootstrap/bootstrap.affix.js"></script>
+    <script src="/static/vendors/bootstrap/bootstrap.affix.js"></script>
 
     <!-- Meyawo js -->
     <script src="/static/js/meyawo.js"></script>
 
 </body>
+
 </html>
