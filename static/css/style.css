@@ -138,8 +138,8 @@ fieldset {
 }
 
 .steps li.is-active {
-  border-bottom: 1px solid #3498db;
-  color: #3498db;
+  border-bottom: 1px solid #000000;
+  color: #000000;
 }
 
 /* FORM */
@@ -182,7 +182,7 @@ fieldset {
 }
 
 .form-wrapper .button, .form-wrapper .submit {
-  background-color: #3498db;
+  background-color: #000000;
   display: inline-block;
   padding: 8px 30px;
   color: #fff;
@@ -244,7 +244,7 @@ fieldset {
   height: 30px;
   line-height: 30px;
   border-radius: 100%;
-  background-color: #3498db;
+  background-color: #000000;
   color: #fff;
   display: none;
 }
@@ -259,9 +259,9 @@ fieldset {
 }
 
 .form-wrapper input[type="radio"]:checked+label {
-  border: 1px solid #3498db;
+  border: 1px solid #000000;
 }
 
 .form-wrapper input[type="radio"]:checked+label h4 {
-  color: #3498db;
+  color: #000000;
 }
